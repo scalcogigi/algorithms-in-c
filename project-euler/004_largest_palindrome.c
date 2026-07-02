@@ -16,16 +16,6 @@ int is_palindrome(int n) {
     return original == reversed;
 }
 
-/*
-1234
-reversed = 0
-
-4    -> 0 * 10 + 4
-43   -> 4 * 10 + 3
-432  -> 43 * 10 + 2
-4321 -> 432 * 10 + 1
-*/
-
 /* test product of two 3-digit numbers */
 /* keep track of the largest palindrome found */
 int main() {
@@ -41,3 +31,13 @@ int main() {
     printf("%d\n", largest);
     return 0;
 }
+
+/*
+1234
+reversed = 0
+
+4    -> 0 * 10 + 4
+43   -> 4 * 10 + 3
+432  -> 43 * 10 + 2
+4321 -> 432 * 10 + 1
+*/
